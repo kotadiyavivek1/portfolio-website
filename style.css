@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c5c6d0 !important;
+}
+ul {
+    list-style: none;
+    color: white;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar {
+    height: 80px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20%;
+    background-color: black;
+    color: white;
+}
+
+.nav-bar p {
+    display: inline;
+    padding: 20px 40px;
+}
+
+.nav-bar p:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+#about {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+}
+
+.com {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.com a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.com a {
+    color: white;
+    background-color: black;
+    padding: 4px;
+}
+
+.icon {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8c8c8c;
+}
+
+#about1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill {
+    margin: 100px;
+    border: 1px solid black;
+}
+
+.project {
+    text-align: center;
+}
+
+.contain {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footer-bottom {
+    color: white;
+}
+
+.footer-social {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #8c8c8c;
+}
+.footer-social a:hover{
+    font-size: 50px;
+}
+.list1{
+    background-color: #c5c6d0 !important;
+}
+.list1:hover{
+    background-color: #8c8c8c !important;
+}
